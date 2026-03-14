@@ -1,0 +1,34 @@
+# Datasets
+*.csv
+*.tsv
+*.parquet
+*.json
+*.zip
+*.gz
+*.tar
+
+ml1*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# Models/checkpoints
+*.pt
+*.pth
+*.bin
+*.ckpt
+checkpoints/
+outputs/
+
+# Logs
+*.log
+wandb/
+runs/
+
+# Environment
+venv/
+.env
